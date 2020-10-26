@@ -5,7 +5,7 @@ import Feed from './Feed';
 import Upload from './Upload';
 import Details from './Details';
 import Amplify from 'aws-amplify'; 
-import awsconfig from './aws-exports'; 
+import awsconfig from '/aws-exports'; 
 
 function App() {
   return (
