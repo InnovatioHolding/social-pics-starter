@@ -1,0 +1,23 @@
+.Feed .pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.Feed .pic {
+    width: 405px;
+    height: 405px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+.Feed .pic img {
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+}
