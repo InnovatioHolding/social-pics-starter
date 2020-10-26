@@ -4,6 +4,8 @@ import { NavLink, Switch, Route, BrowserRouter as Router, Redirect } from 'react
 import Feed from './Feed';
 import Upload from './Upload';
 import Details from './Details';
+import Amplify from 'aws-amplify'; 
+import awsconfig from './aws-exports'; 
 
 function App() {
   return (
@@ -39,8 +41,6 @@ function App() {
   );
 }
 
-import Amplify from 'aws-amplify'; 
-import awsconfig from './aws-exports'; 
 Amplify.configure(awsconfig);
 
 export default App;
